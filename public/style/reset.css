@@ -1,0 +1,144 @@
+/* 设置浏览器默认样式 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+* {
+	touch-action: pan-y;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *{margin: 0;padding: 0;list-style: none;outline: none;box-sizing: border-box;font-family: '微软雅黑';
+font-style: normal;text-decoration: none;font-weight:normal;} */
+/* body{width:100%;height:100%;position:absolute;overflow:hidden;} */
+
+
+/* 修改input属性placeholder颜色 */
+#inp::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+    color: #b7c4d8;
+}
+
+/* 清除浮动 */
+.clearFix::after{content: '';display: block;width: 0;height: 0;visibility: hidden;clear: both;}
+.clearFix{zoom: 1;}     /* 适配IE */
+
+/* 给a锚点链接加滑动效果 */
+html,body{scroll-behavior:smooth;}
+
+/* 文字折叠一行，显示小数点 */
+.fold_one{text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;
+display: -webkit-box;-webkit-line-clamp: 1;line-clamp: 1;-webkit-box-orient: vertical;} 
+/* 文字折叠二行，显示小数点 */
+.fold_two{text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;
+display: -webkit-box;-webkit-line-clamp: 2;line-clamp: 2;-webkit-box-orient: vertical;}
+/* 文字折叠三行，显示小数点 */
+.fold_three{text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;
+display: -webkit-box;-webkit-line-clamp: 3;line-clamp: 3;-webkit-box-orient: vertical;}
+
+/* 滚动条设置 */
+html::-webkit-scrollbar{}  /* 滚动条整体 */
+html::-webkit-scrollbar-thumb{}   /* 滚动条滚轮部分 */
+html::-webkit-scrollbar-track{}   /* 抛去滚动条滚轮其他部分 */
+
+/* 文字不可选中 */
+/*body{*/
+    /* -moz-user-select:none; */     /*火狐*/
+    /* -webkit-user-select:none; */  /*webkit浏览器*/
+    /* -ms-user-select:none; */      /*IE10*/
+    /* -khtml-user-select:none; */    /*早期浏览器*/
+    /* user-select:none; */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
